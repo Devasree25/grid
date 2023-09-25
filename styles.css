@@ -1,0 +1,26 @@
+h1{
+    color:blue
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-auto-rows: minmax(250px,auto);
+    grid-gap: 40px;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+ .grid-item{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+ }
