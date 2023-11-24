@@ -1,3 +1,7 @@
+body{
+    background-color: aqua;
+    border: 100px;
+}
 h1{
     color:blue
     
@@ -12,15 +16,64 @@ h1{
     grid-template-columns: 300px 200px;
     grid-auto-rows: minmax(250px,auto);
     grid-gap: 40px;
-    grid-gap: 20px;
+    grid-gap: 100px;
     justify-items: center;
     align-items: center;
     justify-content: center;
 }
  .grid-item{
     height: 180px;
-    width: 200px;
+    width : 200px;
     display: flex;
     justify-content: center;
     
  }
+ #sid{
+    height: 180px;
+    width: 200px;
+ }
+ .grid-item{
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);    
+    gap: 40px;  
+    padding: 20px; 
+    
+  }
+  #shreya{
+    height: 180px;
+    width: 200px;
+  }
+  #gv{
+    height: 180px;
+    width: 200px;
+  }
+  #ani{
+    height: 180px;
+    width: 200px;
+  }
+  #saindavi{
+    height: 180px;
+    width: 200px;
+  }
+  #sk{
+    height: 180px;
+    width: 200px;
+  }
+  #stephen{
+    height: 180px;
+    width: 200px;
+  }
+  #u1{
+    height: 180px;
+    width: 200px;
+  }
+  #sm{
+    height: 180px;
+    width: 200px;
+  }
